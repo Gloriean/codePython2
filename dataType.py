@@ -4,6 +4,9 @@ print(type(x));
 t = 56.0;
 print(type(t));
 
+a = 1j;
+print(type(a));
+
 y = 'hi!';
 print(type(y));
 
@@ -24,3 +27,25 @@ print(type(z));
 
 s = set(("colour", "range"));
 print(type(s));
+
+
+#Converting from one datatype to another.
+B = 2;
+C = 56.7;
+D = 5j;
+
+#convert from int to float
+b = float(B);
+print(b);
+
+#convert from float to int
+c = int(C);
+print(c);
+
+#convert from int to complex
+d = complex(B);
+print(d);
+
+print(type(b));
+print(type(c));
+print(type(d));
