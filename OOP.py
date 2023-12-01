@@ -7,8 +7,8 @@ class Dog:
         self.colour = colour
         self.attr = attr
     
-Rodger = Dog("Pug", "White", "hairy")
-Kollen = Dog("Bulldog", "Brown", "big")
+Rodger = Dog("Pug", "White", "Hairy")
+Kollen = Dog("Bulldog", "Brown", "Big")
 
 
 print("Rodger Details:")
