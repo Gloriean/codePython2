@@ -1,4 +1,4 @@
-#Input Values
+# How to Take Input Users
 #num1 = input("Enter First Number: ")
 #num2 = input("Enter Second Number: ")
 
@@ -10,7 +10,8 @@
 #print(sum)
 #print(type(sum))
 
-#Conversion of an Inputted Value
+# Conversion of an Inputted Value
+# Type Conversion
 num1 = int(input("Enter First Number: "))
 num2 = int(input("Enter Second Number: "))
 
