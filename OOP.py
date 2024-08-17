@@ -23,3 +23,15 @@ print("Kollen is a", Kollen.breed)
 print("Its colour is", Kollen.colour)
 print("It's", Kollen.attr)
 
+#Create a class named Person, with firstname and lastname properties, and a printname method:
+class Person:
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+
+    def printname(self):
+        print(f"I am {self.firstname} {self.lastname}")
+
+p1 = Person("Glory", "Olasanmi")
+p1.printname()
+
