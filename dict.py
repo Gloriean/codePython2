@@ -28,18 +28,18 @@ for x, y in thisdict.items():
 
 #Nested Dictionaries
 family = {
-    "fam1":{
+    "fam1": {
         "surname": "Olajide",
         "children": 4,
         "religion": "christianity"
     },
 
-    "fam2":{
+    "fam2": {
         "surname": "Ayinde",
         "children": 2,
         "religion": "islam"
     },
-    "fam3":{
+    "fam3": {
         "surname": "Okoye",
         "children": 3,
         "religion": "muslim"

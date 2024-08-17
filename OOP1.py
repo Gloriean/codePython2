@@ -75,3 +75,29 @@ print(next(myiter))
 print(next(myiter))
 print(next(myiter))
 print(next(myiter))
+
+#Insert a function that prints a greeting, and execute it on the p1 object:
+
+class Human:
+    def __init__(self, name, address):
+        self.name = name
+        self.address = address
+    
+    def greeting(self):
+        print(f"Hello,  I am {self.name}.  I live at {self.address}.")
+
+p1 = Human("John", "24, Oba Akran Road")
+p1.greeting()
+
+#Use the words mysillyobject and abc instead of self:
+
+class Phone:
+    def __init__(mysillyobject, brand, colour):
+        mysillyobject.brand = brand
+        mysillyobject.colour = colour
+
+    def OS(abc):
+       print(f"The name of my phone is {abc.brand} and it is {abc.colour} in colour.")
+
+p2 = Phone("Iphone", "Silver")
+p2.OS()
